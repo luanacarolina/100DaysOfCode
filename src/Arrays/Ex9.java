@@ -21,8 +21,9 @@ public class Ex9 {
             b[i]=scan.nextInt();
             System.out.println("B["+i+"] = "+b[i]);
         }
+        System.out.println("Os valores de C são: ");
         for (int i = 0 ;i<c.length;i++){
-
+            c[i]=a[i]/(double)b[i];
             System.out.println("C["+i+"] = "+c[i]);
         }
     }
